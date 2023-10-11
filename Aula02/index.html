@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" /> 
     <title>Listas</title>
 </head>
 <body>
@@ -67,5 +68,114 @@
             <li>Descartar a lâmpada velha</li>
         </ol>
     </div>
+        <table border="1" class="tabela">
+            <thead class="htabela">
+                <tr>
+                    <th>Nome</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Nota 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Guilherme</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Fred</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Rafael</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <td></td>
+                    <td colspan="2">Informações</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Idade</td>
+                    <td>Peso</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Homens</td>
+                    <td>18</td>
+                    <td>67Kg</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>89Kg</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Mulheres</td>
+                    <td>31</td>
+                    <td>89Kg</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>56Kg</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table border="1" class="tabela2">
+            <thead>
+                <tr>
+                    <th rowspan="2" colspan="16"></th>
+                    <th colspan="16">Informações</th>
+                </tr>
+                <tr>
+                    <th colspan="8">Idade</th>
+                    <th colspan="8">Peso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" colspan="16">Homens</td>
+                    <td colspan="8">18</td>
+                    <td colspan="8">67Kg</td>
+                  
+                </tr>
+                <tr>
+                    <td colspan="8">45</td>
+                    <td colspan="8">89Kg</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="16">Mulheres</td>
+                    <td colspan="8">45</td>
+                    <td colspan="8">89Kg</td>
+                </tr>
+                <tr>
+                    <td colspan="8">23</td>
+                    <td colspan="8">56Kg</td>
+                </tr>
+            </tbody>
+        </table>
 </body>
 </html>
