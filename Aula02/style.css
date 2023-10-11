@@ -1,0 +1,10 @@
+.tabela, th, td{
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.htabela{
+    background-color: yellow;
+}
+
