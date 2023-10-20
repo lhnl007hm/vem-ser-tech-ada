@@ -1,0 +1,48 @@
+.box-border {
+    height: 204px;
+    width: 204px;
+    border: 2px dotted #000;
+    margin: auto;
+    position: fixed;
+}
+  
+.box1 {
+    height: 100px;
+    width: 100px;
+    background: lightblue;
+    border: 1px solid black;
+    right: 222px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+  
+.box2 {
+    height: 100px;
+    width: 100px;
+    background: lightcoral;
+    border: 1px solid black;
+    position: absolute;
+    left: calc(10px + 102px);
+    top: 10px;
+}
+  
+.box3 {
+    height: 100px;
+    width: 100px;
+    background: lightcyan;
+    border: 1px solid black;
+    position: absolute;
+    left: 10px;
+    top: 112px;
+}
+  
+.box4 {
+    height: 100px;
+    width: 100px;
+    background: lightgoldenrodyellow;
+    border: 1px solid black;
+    top: 112px;
+    left: calc(10px + 102px);
+    position: absolute;
+}

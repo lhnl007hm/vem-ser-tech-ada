@@ -1,0 +1,44 @@
+.box1 {
+    height: 100px;
+    width: 100px;
+    background: lightblue;
+    border: 1px solid black;
+    position: absolute;
+    right: 222px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box2 {
+    height: 100px;
+    width: 100px;
+    background: lightcoral;
+    border: 1px solid black;
+    position: absolute;
+    left: 102px;
+    top: 0;
+  }
+  
+  .box3 {
+    height: 100px;
+    width: 100px;
+    background: lightcyan;
+    border: 1px solid black;
+    position: absolute;
+    right: 300px;
+    bottom: 100px;
+    left: calc(102px * 2);
+    top: 0;
+  }
+  
+  .box4 {
+    height: 100px;
+    width: 100px;
+    background: lightgoldenrodyellow;
+    border: 1px solid black;
+    top: 355px;
+    right: 0;
+    position: fixed;
+    top: 0;
+    left: calc(102px * 3);
+  }
